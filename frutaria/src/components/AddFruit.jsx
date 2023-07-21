@@ -1,20 +1,22 @@
 import React, { useState } from "react";
+import { useDispatch } from 'react-redux';
+import { actions } from '../actions/fruits.action';
 
 const AddFruit = () => {
 
     const [name, setName] = useState('');
     const [quantity, setQuantity] = useState(0);
 
+    const dispatch = useDispatch();
+
     const addFruit = event => {
         event.preventDefault();
-
         const fruit = {
             id: new Date(),
             name,
             quantity
         };
-
-        console.log('Adicionando Fruta', fruit);
+        dispatch(actions.add(fruit));
     }
 
     return (

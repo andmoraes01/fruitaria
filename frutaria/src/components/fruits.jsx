@@ -1,6 +1,12 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { actions } from '../actions/fruits.action';
+
 
 const Fruit = ({ fruit }) => {
+
+    const dispatch = useDispatch();
+
     return (
         <div className="fruits">
             <ul>
@@ -12,8 +18,8 @@ const Fruit = ({ fruit }) => {
                 </li>
             </ul>
 
-            <button onClick={() => alert(fruit.id)}>
-                Remove
+            <button onClick={() => dispatch(actions.remove(fruit))}>
+                &times;
             </button>
         </div>
     );
