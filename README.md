@@ -1,4 +1,4 @@
-# Frutaria
+# Fruitaria
 A project to implement and practice concepts of react with redux!
 
 # 1.0 A breve introduction about concepts that are use:
