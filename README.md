@@ -17,7 +17,7 @@ Using redux all states are cetrilized on unique archive.
 # Fruitaria Application 
 This simple application consists of a list to add fruits to your list, below we have the "home" and how it turned out!
 
-![Redux Application](Images\application.JPG)
+![Redux Application](frutaria/Images/application.JPG)
 
 # Deploy
 The application can be used and test on link: 
