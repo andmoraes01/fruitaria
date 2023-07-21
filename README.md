@@ -21,4 +21,4 @@ This simple application consists of a list to add fruits to your list, below we 
 
 # 3.0 Deploy
 The application can be used and test on link: 
-https://frutaria-seven.vercel.app/
+https://fruitaria.vercel.app/
