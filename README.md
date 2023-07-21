@@ -1,7 +1,7 @@
 # Frutaria
 A project to implement and practice concepts of react with redux!
 
-# 1 A breve introduction about concepts that are use:
+# 1.0 A breve introduction about concepts that are use:
 Here we have a fluxogram represented by image below: 
 
 ![Redux fluxgram](frutaria/Images/Redux.JPG)
@@ -14,11 +14,11 @@ Using redux all states are cetrilized on unique archive.
 
   In this store, instead of each component managing its own state, all states are kept here (it is a JavaScript object that holds all states). After the alteration, the 'Store' informs the application component where it will update the rendering.
 
-# Fruitaria Application 
+# 2.0 Fruitaria Application 
 This simple application consists of a list to add fruits to your list, below we have the "home" and how it turned out!
 
 ![Redux Application](frutaria/Images/application.JPG)
 
-# Deploy
+# 3.0 Deploy
 The application can be used and test on link: 
 https://frutaria-seven.vercel.app/
