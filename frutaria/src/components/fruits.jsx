@@ -19,7 +19,7 @@ const Fruit = ({ fruit }) => {
             </ul>
 
             <button onClick={() => dispatch(actions.remove(fruit))}>
-                Remove
+                &times;
             </button>
         </div>
     );
