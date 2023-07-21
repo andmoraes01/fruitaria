@@ -4,7 +4,7 @@ A project to implement and practice concepts of react with redux!
 # 1 A breve introduction about concepts that are use:
 Here we have a fluxogram represented by image below: 
 
-![Redux fluxgram](frutaria\Images\Redux.JPG)
+![Redux fluxgram](frutaria/Images/Redux.JPG)
 
 Using redux all states are cetrilized on unique archive. 
 
